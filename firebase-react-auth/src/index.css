@@ -1,64 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: 'Nunito', sans-serif;
-    font-size: 22px;
-    color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  color: #fff;
 }
 
 body {
-    min-height: 100vh;
-    background-color: #72A3FF;
+  min-height: 100vh;
+  background-color: #72a3ff;
 }
-
 
 
 section {
-    width: 100%;
-    max-width: 420px;
-    min-height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    background-color: rgba(0,0,0,0.4);
-    border-radius: 1rem;
+  width: 100%;
+  max-width: 350px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 10rem;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-grow: 1;
-    padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding-bottom: 1rem;
 }
 
-a, a:visited {
-    color: #fff;
+a,
+a:visited {
+  color: #fff;
 }
 
 input[type="email"],
 input[type="password"],
 button,
 textarea {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 22px;
   padding: 0.25rem;
   border-radius: 0.5rem;
 }
 
-label,
-button {
+label {
   margin-top: 1rem;
 }
 
+
 button {
-  padding: 0.5rem;
+  margin-top: .5rem;
+}
+
+button {
+  padding: .5rem;
+  max-width: inherit;
+  width: 79%;
+}
+
+.formDiv {
+  background-color: rgba(0, 0, 0, .4);
+  margin: auto;
+  border-radius: 1rem;
+  padding: 1rem;
 }
